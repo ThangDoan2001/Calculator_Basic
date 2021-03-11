@@ -73,8 +73,8 @@
         app:backgroundTint="#01A9DB"
         app:layout_constraintBottom_toTopOf="@+id/button_multip"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.375"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/button_9"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -122,7 +122,7 @@
         app:backgroundTint="#01A9DB"
         app:layout_constraintBottom_toTopOf="@+id/button_subtract"
         app:layout_constraintEnd_toEndOf="@+id/button_C"
-        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button_devide"
         app:layout_constraintTop_toBottomOf="@+id/button_devide" />
 
@@ -174,7 +174,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button_equal"
         app:layout_constraintEnd_toEndOf="@+id/button_C"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button_multip"
+        app:layout_constraintStart_toStartOf="@+id/button_subtract"
         app:layout_constraintTop_toBottomOf="@+id/button_subtract" />
 
     <Button
@@ -187,7 +187,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button_sum"
         app:layout_constraintEnd_toEndOf="@+id/button_C"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button_multip"
+        app:layout_constraintStart_toStartOf="@+id/button_devide"
         app:layout_constraintTop_toBottomOf="@+id/button_multip" />
 
     <Button
@@ -200,9 +200,10 @@
         app:backgroundTint="#01A9DB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_sum"
+        app:layout_constraintTop_toBottomOf="@+id/button_3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button_1"
@@ -289,15 +290,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="77dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="292dp"
-        android:layout_marginBottom="310dp"
+        android:layout_width="83dp"
+        android:layout_height="63dp"
         android:text="@string/_0"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/button_equal"
+        app:layout_constraintBottom_toTopOf="@+id/button_devide"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        android:gravity="right"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
